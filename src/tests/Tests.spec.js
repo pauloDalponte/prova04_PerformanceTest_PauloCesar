@@ -9,11 +9,11 @@ export const contentOK = new Rate('content_OK');
 
 export const options = {
   thresholds: {
-    http_req_duration: ['p(95)<5700'],
+    http_req_duration: ['p(95)<5700'], #duração
     http_req_failed: ['rate<0.12'],
   },
   stages: [
-    { duration: '60s', target: 10 },
+    { duration: '60s', target: 10 }, #tempo maximo 3,5min
     { duration: '60s', target: 50 },
     { duration: '60s', target: 100 },
     { duration: '60s', target: 150 },
