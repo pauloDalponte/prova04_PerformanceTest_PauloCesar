@@ -1,1 +1,3 @@
-# prova04_PerformanceTest_PauloCesar
+# k6-performance-testing
+
+Performance test with Grafana K6
