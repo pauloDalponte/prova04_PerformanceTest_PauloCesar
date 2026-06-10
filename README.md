@@ -1,3 +1,3 @@
-# k6-performance-testing
+# k6-performance-test
 
 Performance test prova 04 de Automação de Testes
